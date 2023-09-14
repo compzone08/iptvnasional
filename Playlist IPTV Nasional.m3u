@@ -24,11 +24,11 @@ x-tvg-url="https://stavol.masuk.web.id/epg.xml, https://iptv-org.github.io/epg/g
 ########## TV Nasional #######
 ##############################
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne (Opsi-1)
-http://210.210.155.35:80/session/0b808a8c-6c0b-11e9-88f0-c81f66f89318/qwr9ew/s/s105/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",TV One
+https://op-krgroup1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=tvOne
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne (Opsi-2)
-http://210.210.155.37/qwr9ew/s/s105/01.m3u8
+#EXTINF:-1 tvg-logo="" group-title="TV Nasional",MOJI HD
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch26)/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/1200px-CNN_Indonesia.svg.png" group-title="TV Nasional",CNN Indonesia
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
@@ -40,43 +40,46 @@ http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" group-title="TV Nasional",Metro TV HD
-http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w2006790992_b1492000_sleng.m3u8
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/metrotv.m3u8
 
 #EXTINF:-1 group-title="lokal;news" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg",Kompas TV
-http://210.210.155.35/qwr9ew/s/s104/index.m3u8 
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/kompastv.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" group-title="TV Nasional",Indosiar SD
 http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" group-title="TV Nasional",SCTV SD
-http://210.210.155.35/qwr9ew/s/s03/02.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" group-title="TV Nasional",Indosiar HD
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/indosiar.m3u8
 
-#EXTINF:-1 tvg-name=SCTV tvg-logo="https://i.imgur.com/WFT5Xiq.png" group-title="TV Nasional",SCTV HD
-https://coffeetv.herokuapp.com/index.php?id=204
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" group-title="TV Nasional",SCTV HD
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/sctv.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png" group-title="TV Nasional",NET TV
+https://op-group1-swiftservehd-1.dens.tv/h/h06/01.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png" group-title="TV Nasional",NET TV (Opsi 2)
 http://210.210.155.35/qwr9ew/s/s08/01.m3u8
 
-#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="TV Nasional",ANTV SD [Geo-blocked]
+#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="TV Nasional",ANTV HD
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch390)/index.m3u8
+
+#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="TV Nasional",ANTV SD
 http://210.210.155.35/qwr9ew/s/s07/index1.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nPm5ytF.png" group-title="TV Nasional",MNC TV
-https://anevi-live-channel-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nPm5ytF.png" group-title="TV Nasional",MNC TV HD
+http://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD2/sa_hls/MNCTV-HD2.m3u8
 
 #EXTINF:-1 tvg-name=RCTI group-title="TV Nasional",RCTI HD
-https://anevi-live-channel-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
+http://nyanv-live-cdn.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2.m3u8
 
-#EXTINF:-1 tvg-name=GTV group-title="TV Nasional",GTV HD
-https://anevi-live-channel-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NvE0OeL.png" tvg-name=GTV group-title="TV Nasional",GTV HD
+http://nyanv-live-cdn.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cpSiuF1.png" group-title="TV Nasional",Trans 7
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cpSiuF1.png" group-title="TV Nasional",Trans 7 HD
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9ESSmBG.png" group-title="TV Nasional",Trans TV 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9ESSmBG.png" group-title="TV Nasional",Trans TV HD
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NvE0OeL.png" group-title="TV Nasional",Global TV
-https://m-gtv.rctiplus.id/gtv-sdi.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wIh3qZo.png" group-title="TV Nasional",TVRI Jakarta
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIdki)/index.m3u8
@@ -90,8 +93,17 @@ https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GCXgzNr.png" group-title="TV Nasional",TV E-Edukasi!
 http://45.126.83.51/uq2663/h/h10/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="TV Nasional",MOJI TV HD
-https://coffeetv.herokuapp.com/index.php?id=206
+#EXTINF:-1 group-title="TV Nasional",IDX CHANNEL
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch389)/index.m3u8
+
+#EXTINF:-1 group-title="TV Nasional",JAK TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch392)/index.m3u8
+
+
+
+
+
+
 
 
 
@@ -99,14 +111,14 @@ https://coffeetv.herokuapp.com/index.php?id=206
 ######### TV Daerah ##########
 ##############################
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV (Opsi-1)
-http://210.210.155.35/qwr9ew/s/s10/01.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV
+https://op-krgroup1-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV (Opsi-2)
-http://45.126.83.51/qwr9ew/s/s10/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV (Opsi 2)
+http://210.210.155.35/x6bnqe/s/s12/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=Elshinta_TV
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pfiT7Kx.png" group-title="TV Daerah",jtv
-http://210.210.155.35/x6bnqe/s/s91/S4/mnf.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pfiT7Kx.png" group-title="TV Daerah",JTV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch17)/index.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="TV Daerah",Magna TV HD
 https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w757574110_b2692000_sleng.m3u8
@@ -118,7 +130,7 @@ https://inspiratv.siar.us/inspiratv/live/chunks.m3u8
 http://103.30.1.14:8080/hls/live.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EnrG4zA.png" group-title="TV Daerah",DAAI TV
-http://45.126.83.51/qwr9ew/s/s13/index.m3u8
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch128)/index.m3u8
 
 #EXTINF:-1 group-title="TV Daerah" tvg-id="JPMTV.id", Jawa Pos Multimedia TV HD
 http://122.248.43.138:1935/ch6/myStream/playlist.m3u8
@@ -193,7 +205,7 @@ http://wms.klikhost.com:1935/tegartv/tegartv/chunklist_w1639503258.m3u8
 https://re1.siar.us/madutv/hd720/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Garuda TV" group-title="TV Daerah",Garuda TV
-https://ms.digdaya.tv/live/digdayatv/chunklist_w1940629469.m3u8
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch45)/index.m3u8
 
 #EXTINF:-1 tvg-name="Banyumas TV" group-title="TV Daerah",Banyumas TV
 http://bmstv.onlivestreaming.net/bmstv/livestream/chunks.m3u8
@@ -286,6 +298,9 @@ https://lingkartv.my.id/hls/lingkartv.m3u8
 https://e1.siar.us/badartv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV 9 Nusantara" group-title="TV Daerah",TV 9 Nusantara
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch352)/index.m3u8
+
+#EXTINF:-1 tvg-name="TV 9 Nusantara" group-title="TV Daerah",TV 9 Nusantara (Opsi 2)
 https://anevi-live-channel-cdn.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd
 
 
@@ -380,7 +395,7 @@ https://h1.intechmedia.net/intech/ch6.m3u8
 #EXTINF:-1 tvg-name="Surau TV" group-title="TV Religi",Surau TV
 https://h1.intechmedia.net/intech/ch3.m3u8
 
-#EXTINF:-1 tvg-name="Surau TV 2" group-title="TV Religi",Surau TV 2
+#EXTINF:-1 tvg-name="Surau TV 2" group-title="TV Religi",Surau TV (Opsi 2)
 https://ams.juraganstreaming.com:5443/LiveApp/streams/surautv.m3u8
 
 #EXTINF:-1 tvg-name="UFA TV" group-title="TV Religi",UFA TV
@@ -405,7 +420,10 @@ https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
 #EXTINF:-1 group-title="TVRI" tvg-logo="https://i.imgur.com/bD2odoR.png",TVRI Nasional
 http://210.210.155.35/qwr9ew/s/s11/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI Olahraga
+#EXTINF:-1 group-title="TVRI" tvg-logo="https://i.imgur.com/bD2odoR.png",TVRI Nasional (Opsi 2)
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch399)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SPORT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 
 #EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI ACEH
@@ -508,6 +526,34 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 
 
+##############################
+########### Anak #############
+##############################
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Hip Hip Horee!" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/64856f589d7cf4ebc75e471cc73e98f3.png" group-title="Anak",Horee
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch375)/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Mentari TV" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/db1dfff49cbaffb6a323ce329f64a2f8.png" group-title="Anak",Mentari TV
+http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/298546
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: ZooMoo" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/ffe9e8c7ffa0c48eccb971c397c8e0de.png" group-title="Anak",ZooMoo
+http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/264751
+
+#EXTINF:-1 group-title="Anak",Biznet Kids
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/chunklist_w1671843579_b6256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1xQXJpMU0yeHVfTUFsbkh3VlJ0T3MyNGxSOFlfSFNEaWpOMkNSTmdoaWZVbGxoWXFRU0Rsa2QwcUU4Q2tad3hD.m3u8
+
+#EXTINF:-1 group-title="Anak",My Kidz HD
+https://op-group1-swiftservesd-1.dens.tv/h/h191/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: 24/7 Doraemon" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Anak",Doraemon
+http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/298496
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: 24/7 Upin Ipin" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Anak",Upin Ipin
+http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/298501
+
+
+
+
 
 
 ##############################
@@ -515,8 +561,8 @@ https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 ##############################
 
 
-#EXTINF:-1 tvg-logo="" group-title="TV Olahraga",TVRI Sport
-http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="TV Olahraga",TVRI SPORT
+http://210.210.155.37/qwr9ew/s/s107/index.m3u8
 
 #EXTINF:-1 group-title="TV Olahraga",Abu Dhabi Sports 1
 https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
