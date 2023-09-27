@@ -1,12 +1,10 @@
-
 #EXTM3U
 
 ##############################
 ########## EPG Source ########
 ##############################
 
-x-tvg-url="https://stavol.masuk.web.id/epg.xml, https://iptv-org.github.io/epg/guides/id/indihometv.com.xml, https://iptv-org.github.io/epg/guides/id/mncvision.id.xml, https://iptv-org.github.io/epg/guides/id/transvision.co.id.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.xml"
-
+x-tvg-url="https://12537-stream-ip-tv.xyz/local/epg.xml" refresh=3600 tvg-shift=0
 
 ##################################################
 #########Playlist TV Ini Gratis###################
@@ -24,70 +22,85 @@ x-tvg-url="https://stavol.masuk.web.id/epg.xml, https://iptv-org.github.io/epg/g
 ########## TV Nasional #######
 ##############################
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",TV One
+#EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne
 https://op-krgroup1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=tvOne
 
-#EXTINF:-1 tvg-logo="" group-title="TV Nasional",MOJI HD
+#EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne Alt
+https://op-krgroup1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=tvOne
+
+#EXTINF:-1 tvg-id="ochannel.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/moji.png" group-title="TV Nasional",MOJI
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch26)/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/1200px-CNN_Indonesia.svg.png" group-title="TV Nasional",CNN Indonesia
+#EXTINF:-1 tvg-id="cnnindonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/1200px-CNN_Indonesia.svg.png" group-title="TV Nasional",CNN Indonesia
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/h7RKQpQ.png" group-title="TV Nasional",CNBC Indonesia HD
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="TV Nasional",Berita Satu
+#EXTINF:-1 tvg-id="beritasatu.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/btv_beritasatu.png" group-title="TV Nasional",Berita Satu (BTV) HD
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" group-title="TV Nasional",Metro TV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" tvg-id="metrotv.id" group-title="TV Nasional",Metro TV SD
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/metrotv.m3u8
 
-#EXTINF:-1 group-title="lokal;news" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg",Kompas TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" tvg-id="metrotv.id" group-title="TV Nasional",Metro TV ALT
+http://12537-stream-ip-tv.xyz/play/channels/efemeks/metroteve/index.m3u8
+
+#EXTINF:-1 tvg-id="kompastv.id" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg" group-title="TV Nasional",Kompas TV
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/kompastv.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" group-title="TV Nasional",Indosiar SD
-http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
+#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg",Kompas TV SD 2
+http://12537-stream-ip-tv.xyz/play/channels/efemeks/kompasteve/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" group-title="TV Nasional",Indosiar HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD
+http://12537-stream-ip-tv.xyz/play/channels/efemeks/indosiar/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD 2
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/indosiar.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" group-title="TV Nasional",SCTV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD 3
+http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" tvg-id="sctv.id" group-title="TV Nasional",SCTV SD
+http://12537-stream-ip-tv.xyz/play/channels/efemeks/esceteve/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" tvg-id="sctv.id" group-title="TV Nasional",SCTV SD 2
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/sctv.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png" group-title="TV Nasional",NET TV
+#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png"  group-title="TV Nasional",NET TV SD
 https://op-group1-swiftservehd-1.dens.tv/h/h06/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png" group-title="TV Nasional",NET TV (Opsi 2)
-http://210.210.155.35/qwr9ew/s/s08/01.m3u8
-
-#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="TV Nasional",ANTV HD
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/antv.png" tvg-id="antv.id" group-title="TV Nasional",ANTV HD
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch390)/index.m3u8
 
-#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="TV Nasional",ANTV SD
+#EXTINF:1- tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/antv.png" tvg-id="antv.id" group-title="TV Nasional",ANTV SD
 http://210.210.155.35/qwr9ew/s/s07/index1.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nPm5ytF.png" group-title="TV Nasional",MNC TV HD
-http://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD2/sa_hls/MNCTV-HD2.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nPm5ytF.png" tvg-id="mnctv.id" group-title="TV Nasional",MNC TV HD
+http://12537-stream-ip-tv.xyz/play/channels/erceteplus/mnctv/index.m3u8
 
-#EXTINF:-1 tvg-name=RCTI group-title="TV Nasional",RCTI HD
-http://nyanv-live-cdn.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2.m3u8
+#EXTINF:-1 tvg-id="rcti.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rcti.png" group-title="TV Nasional",RCTI HD
+http://12537-stream-ip-tv.xyz/play/channels/erceteplus/rcti/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NvE0OeL.png" tvg-name=GTV group-title="TV Nasional",GTV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NvE0OeL.png" tvg-id="gtv.id" group-title="TV Nasional",GTV HD
 http://nyanv-live-cdn.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cpSiuF1.png" group-title="TV Nasional",Trans 7 HD
+#EXTINF:-1 tvg-id="inews.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/inews.png" group-title="TV Nasional",iNews
+http://12537-stream-ip-tv.xyz/play/channels/erceteplus/inews/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cpSiuF1.png" tvg-id="trans7.id" group-title="TV Nasional",Trans 7 HD
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9ESSmBG.png" group-title="TV Nasional",Trans TV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9ESSmBG.png" tvg-id="transtv.id" group-title="TV Nasional",Trans TV HD
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wIh3qZo.png" group-title="TV Nasional",TVRI Jakarta
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wIh3qZo.png" tvg-id="tvrinasional.id" group-title="TV Nasional",TVRI Nasional Jakarta
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIdki)/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0ibvxPb.png" group-title="TV Nasional",Jakarta Globe News
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0ibvxPb.png" tvg-id="jakartaglobenews.id" group-title="TV Nasional",Jakarta Globe News
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsenglish/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.firstmedia.com/uploads/LOGO%20berita%20satu.png?1383203151" group-title="TV Nasional",Berita Satu World
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bH4sFzG.png" tvg-id="beritasatuworld.id" group-title="TV Nasional",Berita Satu World
 https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GCXgzNr.png" group-title="TV Nasional",TV E-Edukasi!
@@ -96,10 +109,11 @@ http://45.126.83.51/uq2663/h/h10/index.m3u8
 #EXTINF:-1 group-title="TV Nasional",IDX CHANNEL
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch389)/index.m3u8
 
-#EXTINF:-1 group-title="TV Nasional",JAK TV
+#EXTINF:-1 group-title="TV Nasional" tvg-id="jaktv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jaktv.png",JakTV
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch392)/index.m3u8
 
-
+#EXTINF:-1 group-title="TV Nasional" tvg-id="rajawalitv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rtv.png",RTV
+http://12537-stream-ip-tv.xyz/play/channels/mekstrim/hls/41869351-4a9c-4e57-b54b-8cf5dfc919e1/master.m3u8
 
 
 
@@ -111,198 +125,227 @@ http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch392)/index.m3u
 ######### TV Daerah ##########
 ##############################
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV
-https://op-krgroup1-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" group-title="TV Daerah",Elshinta TV (Opsi 2)
-http://210.210.155.35/x6bnqe/s/s12/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=Elshinta_TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kx0WDLt.png" tvg-id="elshintatv.id" group-title="TV Daerah",Elshinta TV
+https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pfiT7Kx.png" group-title="TV Daerah",JTV
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch17)/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="TV Daerah",Magna TV HD
-https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w757574110_b2692000_sleng.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vBEwtc3.png" group-title="TV Daerah",Inspira TV
-https://inspiratv.siar.us/inspiratv/live/chunks.m3u8
-
-#EXTINF:0 tvg-country="ID" group-title="TV Daerah" tvg-logo="https://cc.dinus.ac.id/assets/uploads/penyedia/08095-tvkusmg.png",TVKU
-http://103.30.1.14:8080/hls/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/EnrG4zA.png" group-title="TV Daerah",DAAI TV
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch128)/index.m3u8
-
-#EXTINF:-1 group-title="TV Daerah" tvg-id="JPMTV.id", Jawa Pos Multimedia TV HD
-http://122.248.43.138:1935/ch6/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Pon TV
-http://122.248.43.138:1935/ch15/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Padang TV
-http://122.248.43.138:1935/ch16/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Radar TV
-http://122.248.43.138:1935/ch17/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Balikapan TV
-http://122.248.43.138:1935/ch10/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Riau TV
-http://122.248.43.138:1935/ch11/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",RCTV
-http://122.248.43.138:1935/ch9/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Jambi TV
-http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",Citra TV
-http://122.248.43.138:1935/ch28/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah",SMTV
-http://122.248.43.138:1935/ch25/myStream/playlist.m3u8
-
-#EXTINF:-1 group-title="TV Daerah" tvg-id="TegarTVLampung.id" status="online",Tegar TV Lampung (480p)
-https://5bf7b725107e5.streamlock.net/tegartv/tegartv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="BatuTV.id",Batu TV [Not 24/7]
-http://117.103.69.219:8080/live/streaming/index.m3u8
-
-#EXTINF:-1 tvg-id="JambiTV.id" status="online" group-title="TV Daerah",Jambi TV (576p) [Not 24/7]
-http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="BBS TV" group-title="TV Daerah",BBS TV
-http://103.119.54.246:8080/hls/bbstv.m3u8
-
-#EXTINF:-1 tvg-name="Banten TV" group-title="TV Daerah",Banten TV
-https://v2.siar.us/barayatv/live/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Bandung TV ID" group-title="TV Daerah",Bandung TV
-https://liveanevia.mncnow.id/live/eds/BandungTV/sa_dash_vmx/BandungTV.mpd
-
-#EXTINF:-1 tvg-name="Garda TV" group-title="TV Daerah",Garda TV
-https://bintangtv.siar.us/bintangtv/live/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Jogja TV" group-title="TV Daerah",Jogja TV
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
-
-#EXTINF:-1 tvg-name="Duta TV" group-title="TV Daerah",Duta TV
-https://o1.siar.us/dutatv/live/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Jaya TV" group-title="TV Daerah",Jaya TV
-https://h1.intechmedia.net/intech/ch52.m3u8
-
-#EXTINF:-1 tvg-name="BETV Bengkulu" group-title="TV Daerah",BETV Bengkulu
-https://h1.intechmedia.net/intech/ch58.m3u8
-
-#EXTINF:-1 tvg-name="RA TV" group-title="TV Daerah",RA TV
-https://h1.intechmedia.net/intech/ch59.m3u8
-
-#EXTINF:-1 tvg-name="Tegar TV" group-title="TV Daerah",Tegar TV
-http://wms.klikhost.com:1935/tegartv/tegartv/chunklist_w1639503258.m3u8
-
-#EXTINF:-1 tvg-name="Madu TV" group-title="TV Daerah",Madu TV
-https://re1.siar.us/madutv/hd720/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Garuda TV" group-title="TV Daerah",Garuda TV
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch45)/index.m3u8
-
-#EXTINF:-1 tvg-name="Banyumas TV" group-title="TV Daerah",Banyumas TV
-http://bmstv.onlivestreaming.net/bmstv/livestream/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Puja TV" group-title="TV Daerah",Puja TV
-https://v6.siar.us/pujatv/live/chunks.m3u8
-
-#EXTINF:-1 tvg-name="MGS TV" group-title="TV Daerah",MGS TV
-https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv_high-17440.m3u8
-
-#EXTINF:-1 tvg-name="Riau TV" group-title="TV Daerah",Riau TV
-http://122.248.43.138:1935/ch11/myStream/chunklist_w235686384.m3u8
-
-#EXTINF:-1 tvg-name="Bayu TV" group-title="TV Daerah",Bayu TV
-https://5bf7b725107e5.streamlock.net/bayutvpersada/bayutvpersada/chunklist_w675386745.m3u8
-
-#EXTINF:-1 tvg-name=TATV group-title="TV Daerah",TATV
-https://v2.siar.us/tatv/live.sdp/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Sampit TV" group-title="TV Daerah",Sampit TV
-https://alfa.kugo.id/sampittv/rtmp.stream/chunklist.m3u8
-
-#EXTINF:-1 tvg-name="Kawanua TV" group-title="TV Daerah",Kawanua TV
-http://122.248.43.138:1935/ch18/myStream/chunklist_w766151197.m3u8
-
-#EXTINF:-1 tvg-name="Pontianak TV" group-title="TV Daerah",Pontianak TV
-http://122.248.43.138:1935/ch15/myStream/chunklist_w1162794007.m3u8
-
-#EXTINF:-1 tvg-name="Padang TV" group-title="TV Daerah",Padang TV
-http://122.248.43.138:1935/ch16/myStream/chunklist_w95313482.m3u8
-
-#EXTINF:-1 tvg-name="Sultra TV" group-title="TV Daerah",Sultra TV
-http://122.248.43.138:1935/ch20/myStream/chunklist_w1190267982.m3u8
-
-#EXTINF:-1 tvg-name=RCTV group-title="TV Daerah",RCTV
-https://v10.siar.us/rctv/live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Nusantara TV" group-title="TV Daerah",Nusantara TV
-https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
-
-#EXTINF:-1 tvg-name="ADI TV" group-title="TV Daerah",ADI TV
-https://v2.siar.us/aditv/livestream/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Tanjung Pinang TV" group-title="TV Daerah",Tanjung Pinang TV
-http://103.30.246.47:1935/tvtpi/smil:live.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Batam TV" group-title="TV Daerah",Batam TV
-http://122.248.43.138:1935/ch5/myStream/chunklist.m3u8
-
-#EXTINF:-1 tvg-name=TVKU group-title="TV Daerah",TVKU
-http://103.30.1.14:8080/hls/live.m3u8
-
-#EXTINF:-1 tvg-name="Magna Channel" group-title="TV Daerah",Magna Channel
+#EXTINF:-1 tvg-id="magnachannel.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/magna_channel.png" group-title="TV Daerah",Magna TV HD
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name=SMTV group-title="TV Daerah",SMTV
-http://122.248.43.138:1935/ch25/myStream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vBEwtc3.png" tvg-id="inspiratv.id" group-title="TV Daerah",Inspira TV
+https://inspiratv.siar.us/inspiratv/live/chunks.m3u8
 
-#EXTINF:-1 tvg-name="Balikapan TV" group-title="TV Daerah",Balikapan TV
+#EXTINF:-1 tvg-country="ID" group-title="TV Daerah" tvg-logo="https://cc.dinus.ac.id/assets/uploads/penyedia/08095-tvkusmg.png",TVKU
+http://103.30.1.14:8080/hls/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EnrG4zA.png" tvg-id="daaitv.id" group-title="TV Daerah",DAAI TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch128)/index.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="jawapostv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jawa_pos_tv.png",Jawa Pos TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/jawapostv.m3u8
+
+#EXTINF:-1 tvg-name="pontv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/pontv.png" group-title="TV Daerah",PonTV
+https://63b2dc7196c38.streamlock.net:1937/ch15/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/pontv.png",PonTV ALT
+http://122.248.43.138:1935/ch15/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="padangtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/padang_tv.png" group-title="TV Daerah",Padang TV
+http://122.248.43.138:1935/ch16/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jgLFw5p.jpeg" group-title="TV Daerah",Radar TV Lampung
+http://122.248.43.138:1935/ch17/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/balikapan_tv.png" group-title="TV Daerah",Balikapan TV
 http://122.248.43.138:1935/ch10/myStream/playlist.m3u8
 
-#EXTINF:-1 tvg-name=UGTV group-title="TV Daerah",UGTV
+#EXTINF:-1 group-title="TV Daerah" tvg-id="riautv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/riau_tv.png",Riau TV
+http://122.248.43.138:1935/ch11/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="rctv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rctv.png",RCTV
+http://122.248.43.138:1935/ch9/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jambi_tv.png",Jambi TV
+https://63b2dc7196c38.streamlock.net:1937/ch23/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/citra_tv.png",Citra TV
+http://122.248.43.138:1935/ch28/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/smtv.png",SMTV
+http://122.248.43.138:1935/ch25/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="tegartvlampung.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tegar_tv.png",Tegar TV Lampung
+https://5bf7b725107e5.streamlock.net/tegartv/tegartv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="tegartvlampung.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tegar_tv.png",Tegar TV ALT2
+http://wms.klikhost.com:1935/tegartv/tegartv/chunklist_w1639503258.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="tegartvlampung.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tegar_tv.png",Tegar TV AL3
+https://5bf7b725107e5.streamlock.net/tegartv/tegartv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="batutv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/batu_tv.png",Batu TV
+http://117.103.69.219:8080/live/streaming/index.m3u8
+
+#EXTINF:-1 tvg-id="jambitv.id" group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jambi_tv.png",Jambi TV
+http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="bbstv.id" tvg-logo="https://i.imgur.com/OtCi2yj.png" group-title="TV Daerah",BBS TV
+http://103.119.54.246:8080/hls/bbstv.m3u8
+
+#EXTINF:-1 tvg-name="bantentv.id" group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/banten_tv.png",Banten TV
+https://5bf7b725107e5.streamlock.net:443/bantentv/bantentv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="bandungtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/bandung_tv.png",Bandung TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/bandung.m3u8
+
+#EXTINF:-1 tvg-name="Garda TV" group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/garda_tv.png",Garda TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/gardatv.m3u8
+
+#EXTINF:-1 tvg-name="Jogja TV" group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jogja_tv.png",Jogja TV
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+
+#EXTINF:-1 tvg-name="Duta TV" group-title="TV Daerah" tvg-id="dutatv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/duta_tv.png",Duta TV HD
+https://o1.siar.us/dutatv/live/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Jaya TV" group-title="TV Daerah" tvg-id="jayatvjayapura.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jaya_tv.png",Jaya TV
+https://h1.intechmedia.net/intech/ch52.m3u8
+
+#EXTINF:-1 tvg-name="BETV Bengkulu" group-title="TV Daerah" tvg-id="betv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/betv.png",BETV Bengkulu
+https://h1.intechmedia.net/intech/ch58.m3u8
+
+#EXTINF:-1 tvg-name="ratv.id" group-title="TV Daerah",RA TV
+https://h1.intechmedia.net/intech/ch59.m3u8
+
+#EXTINF:-1 tvg-name="madutv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/madu_tv.png" group-title="TV Daerah",Madu TV
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+
+#EXTINF:-1 tvg-id="garudatv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/garuda_tv.png" group-title="TV Daerah",Garuda TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch45)/index.m3u8
+
+#EXTINF:-1 tvg-name="banyumastv.id" tvg-logo="https://i.imgur.com/mUraVa5.png" group-title="TV Daerah",Banyumas TV
+http://bmstv.onlivestreaming.net/bmstv/livestream/chunks.m3u8
+
+#EXTINF:-1 tvg-id="pujatvaceh.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/puja_tv.png" group-title="TV Daerah",Puja TV
+https://v6.siar.us/pujatv/live/chunks.m3u8
+
+#EXTINF:-1 tvg-name="mgstv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/mgstv.png" group-title="TV Daerah",MGS TV
+https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv_high-17440.m3u8
+
+#EXTINF:-1 tvg-id="riautv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/riau_tv.png" group-title="TV Daerah",Riau TV
+http://122.248.43.138:1935/ch11/myStream/chunklist_w235686384.m3u8
+
+#EXTINF:-1 tvg-id="bayutvnganjuk.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/bayu_tv.png" group-title="TV Daerah",Bayu TV
+https://5bf7b725107e5.streamlock.net/bayutvpersada/bayutvpersada/chunklist_w675386745.m3u8
+
+#EXTINF:-1 tvg-id="tatv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tatv.png" group-title="TV Daerah",TATV
+https://v2.siar.us/tatv/live.sdp/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Sampittv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/sampit_tv.png" group-title="TV Daerah",Sampit TV
+https://alfa.kugo.id/sampittv/rtmp.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="kawanuatv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/kawanua_tv.png" group-title="TV Daerah",Kawanua TV
+https://63b2dc7196c38.streamlock.net:1937/ch18/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="padangtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/padang_tv.png" group-title="TV Daerah",Padang TV
+https://63b2dc7196c38.streamlock.net:1937/ch16/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="tvsultra.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tv_sultra.png" group-title="TV Daerah",TV Sultra
+https://63b2dc7196c38.streamlock.net:1937/ch20/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="rctv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rctv.png" group-title="TV Daerah",RCTV
+https://v10.siar.us/rctv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="nusantaratv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/nusantara_tv.png" group-title="TV Daerah",Nusantara TV
+https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
+
+#EXTINF:-1 tvg-id="aditv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/aditv.png" group-title="TV Daerah",ADI TV
+https://v2.siar.us/aditv/livestream/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Tanjung Pinang TV" tvg-logo="https://i.imgur.com/9iG7xHy.jpeg" group-title="TV Daerah",Tanjung Pinang TV
+http://103.30.246.47:1935/tvtpi/smil:live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="batamtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/batam_tv.png" group-title="TV Daerah",Batam TV
+http://122.248.43.138:1935/ch5/myStream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="tvku.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tvku.png" group-title="TV Daerah",TVKU
+http://103.30.1.14:8080/hls/live.m3u8
+
+#EXTINF:-1 tvg-id="magnachannel.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/magna_channel.png" group-title="TV Daerah",Magna Channel
+https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="smtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/smtv.png" group-title="TV Daerah",SMTV
+http://122.248.43.138:1935/ch25/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="balikapantv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/balikapan_tv.png" group-title="TV Daerah",Balikapan TV
+http://122.248.43.138:1935/ch10/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ugtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/ugtv.png" group-title="TV Daerah",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv_high.m3u8
 
-#EXTINF:-1 tvg-name=JITV group-title="TV Daerah",JITV
-https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w1534412918.m3u8
+#EXTINF:-1 tvg-name=JITV group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jitv.png",JITV
+https://mam.jogjaprov.go.id:1937/tv/jitv_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-name=DMTV group-title="TV Daerah",DMTV
+#EXTINF:-1 tvg-name=DMTV tvg-logo="https://i.imgur.com/FPGyUnY.png" group-title="TV Daerah",DMTV Malang
 https://www.gemilang.tv/hls/?tv=dmtv-malang&bypass=false&token=amx4NTUxMURtNGZUTmNJendsZ2d4dWo4SGZhRllURnZTNW9RQUhPZlFya0FZaHFGZFlWS1VqSTcxbHN5RWtWNDo65yoo3jE%2FPYG8EdSVJji1MQ%3D%3D.m3u8
 
 #EXTINF:-1 tvg-name=ATVLI group-title="TV Daerah",ATVLI
 https://www.ubeetv.xyz/hls/?tv=atvli&data=REJzY2s0YXkva2pGemp3aWpFK1dOYzZRWm9iREtrV204VGxlb3Z5WFY0KzBoL0wyWDJIcVo2QlFTbUVDbWhlWUtyYzhjVUJWR2R5UGtleE4veU9WQys0L2lZak9YaFZpR0h6M2o5YnFSRWM9OjqbtoR3CkdR%2FLjU0YZIja%2Bm&token=WDVSdU1STks4VkZETngzSlNBSWpNaVZPUmI5UTFoaHJWUVBzRGY0cWNiWExpazFkM3NLTFlPRGJtMU5SUkU0cDo6l0zq3eOmGRDkh9OWaE8mqw==
 
-#EXTINF:-1 tvg-name="Batu TV" group-title="TV Daerah",Batu TV
+#EXTINF:-1 tvg-name="Batu TV" tvg-logo="https://i.imgur.com/1ctRRnr.png" group-title="TV Daerah",Batu TV
 http://117.103.69.219:8080/live/streaming/index.m3u8
 
-#EXTINF:-1 tvg-name="PAL TV" group-title="TV Daerah",PAL TV
+#EXTINF:-1 tvg-name="paltvpalembang.id" tvg-logo="https://i.imgur.com/ctBHV17.jpeg" group-title="TV Daerah",PAL TV Palembang
 http://122.248.43.138:1935/ch7/myStream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Sakti TV" group-title="TV Daerah",Sakti TV
-http://video2.onlivestreaming.net/saktitv/livestream/chunks.m3u8
+#EXTINF:-1 tvg-id="saktitv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/sakti_tv.png" group-title="TV Daerah",Sakti TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/saktitv.m3u8
 
-#EXTINF:-1 tvg-name="Sangaji TV" group-title="TV Daerah",Sangaji TV
+#EXTINF:-1 tvg-id="sangajitv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/sangaji_tv.png" group-title="TV Daerah",Sangaji TV
 https://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8
 
-#EXTINF:-1 tvg-name="Lingkar TV" group-title="TV Daerah",Lingkar TV
+#EXTINF:-1 tvg-name="lingkartv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/lingkar_tv.png" group-title="TV Daerah",Lingkar TV
 https://lingkartv.my.id/hls/lingkartv.m3u8
 
-#EXTINF:-1 tvg-name=BRTV group-title="TV Daerah",BRTV
+#EXTINF:-1 tvg-name=BRTV group-title="TV Daerah" tvg-id="brtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/brtv.png",BRTV
 https://e1.siar.us/badartv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV 9 Nusantara" group-title="TV Daerah",TV 9 Nusantara
+#EXTINF:-1 tvg-name="TV 9 Nusantara" tvg-logo="https://i.imgur.com/B0kOwcz.png" group-title="TV Daerah",TV 9 Nusantara
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch352)/index.m3u8
 
-#EXTINF:-1 tvg-name="TV 9 Nusantara" group-title="TV Daerah",TV 9 Nusantara (Opsi 2)
-https://anevi-live-channel-cdn.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd
+#EXTINF:-1 group-title="TV Daerah" tvg-id="dhohotv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/dhoho_tv.png",Dhoho TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/dhohotv.m3u8
 
+#EXTINF:-1 group-title="TV Daerah" tvg-id="surabayatv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/surabaya_tv.png",Surabaya TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/surabayatv.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="Bali TV" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/bali_tv.png",Bali TV
+http://12537-stream-ip-tv.xyz/play/channels/mekstrim/hls/8e867ae0-b2c0-4968-9f60-a11aee8c0987/master.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/simpang5_tv.png",Simpang5 TV
+https://63b2dc7196c38.streamlock.net:1937/ch4/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/semarang_tv.png",Semarang TV
+http://116.254.112.74/hls/cakralive.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="jektv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jek_tv.png",Jek TV Jambi
+https://63b2dc7196c38.streamlock.net:1937/ch14/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/bungo_tv.png",Bungo TV
+https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/ctv_banten.png",CTV Banten
+https://wowza.convergen.co/ctv/ctv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/huma_betang_tv.png",Huma Betang TV
+http://12537-stream-ip-tv.xyz/play/channels/daerah/humabetangtv.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tv_tabalong.png",TV Tabalong
+https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Daerah" tvg-id="jpmtv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jpmtv.png",JPMTV
+https://63b2dc7196c38.streamlock.net:1937/ch6/myStream/playlist.m3u8
 
 
 
@@ -314,7 +357,7 @@ https://anevi-live-channel-cdn.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd
 #EXTINF:-1 group-title="TV Religi",MAKKAH Live
 http://210.210.155.35/qwr9ew/s/s28/01.m3u8
 
-#EXTINF:-1 tvg-logo="/storage/emulated/0/logo_tv/Makkah2.jpg" group-title="TV Religi",MADINAH Live
+#EXTINF:-1 tvg-logo="" group-title="TV Religi",MADINAH Live
 http://45.126.83.51/qwr9ew/s/s27/02.m3u8
 
 #EXTINF:-1 group-title="TV Religi",MADINAH 2 Live
@@ -413,6 +456,7 @@ https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
 
 
 
+
 ##############################
 ######### TVRI ###############
 ##############################
@@ -423,94 +467,94 @@ http://210.210.155.35/qwr9ew/s/s11/index.m3u8
 #EXTINF:-1 group-title="TVRI" tvg-logo="https://i.imgur.com/bD2odoR.png",TVRI Nasional (Opsi 2)
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch399)/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SPORT
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SPORT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI ACEH
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI ACEH
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIAceh)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SUMATERA UTARA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SUMATERA UTARA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISumutmedan)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SUMATERA BARAT
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SUMATERA BARAT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISumbarpadang)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SUMATERA SELATAN
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SUMATERA SELATAN
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISumsel)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI RIAU
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI RIAU
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIRiau)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI JAMBI
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI JAMBI
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIJambi)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI BANGKA BELITUNG
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI BANGKA BELITUNG
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBabel)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI BENGKULU
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI BENGKULU
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBengkulu)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI LAMPUNG
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI LAMPUNG
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRILampung)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI DKI JAKARTA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI DKI JAKARTA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIDki)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI JAWA BARAT
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI JAWA BARAT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIJabarbandung)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI JAWA TENGAH
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI JAWA TENGAH
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIJatengsemarang)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI JAWA TIMUR
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI JAWA TIMUR
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIJatimsurabaya)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) YOGYAKARTA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI YOGYAKARTA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIYogyakarta)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI BALI
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI BALI
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBali)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI NUSA TENGGARA BARAT
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI NUSA TENGGARA BARAT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINtbmataram)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI NUSA TENGGARA TIMUR
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI NUSA TENGGARA TIMUR
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINttkupang)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah"  tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI KALIMANTAN BARAT
+#EXTINF:-1 group-title="TV Daerah"  tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI KALIMANTAN BARAT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKalbar)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI KALIMANTAN TENGAH
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI KALIMANTAN TENGAH
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKalteng)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI KALIMANTAN TIMUR
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI KALIMANTAN TIMUR
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKaltimsamarinda)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI KALIMANTAN SELATAN
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI KALIMANTAN SELATAN
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKalselbanjarmsn)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SULAWESI SELATAN
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SULAWESI SELATAN
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISulselmakasar)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SULAWESI BARAT
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SULAWESI BARAT
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISulbarmajene)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SULAWESI TENGGARA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SULAWESI TENGGARA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISultra)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SULAWESI TENGAH
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SULAWESI TENGAH
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISultengpalu)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI SULAWESI UTARA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI SULAWESI UTARA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISulutmanado)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI GORONTALO
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI GORONTALO
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIGorontalo)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI MALUKU
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI MALUKU
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIMalukuambon)/index.m3u8
 
-#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",(ID) TVRI PAPUA
+#EXTINF:-1 group-title="TV Daerah" tvg-logo="https://i.imgur.com/bD2odoR.png" group-title="TVRI",TVRI PAPUA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIPapua)/index.m3u8
 
 
@@ -519,10 +563,10 @@ http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIPapua)/index.m3u8
 ####### TV Pengetahuan #######
 ##############################
 
-#EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="NASATVPublic.us" group-title="TV Pengetahuan",NASA TV Public
+#EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvpublic.us" group-title="TV Pengetahuan",NASA TV Public
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
-#EXTINF:-1 tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="NASATVMedia.us" group-title="TV Pengetahuan",NASA TV Media
+#EXTINF:-1 tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvmedia.us" group-title="TV Pengetahuan",NASA TV Media
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 
 
@@ -530,13 +574,13 @@ https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 ########### Anak #############
 ##############################
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: Hip Hip Horee!" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/64856f589d7cf4ebc75e471cc73e98f3.png" group-title="Anak",Horee
+#EXTINF:-1 tvg-id="" tvg-name="horee.id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/64856f589d7cf4ebc75e471cc73e98f3.png" group-title="Anak",Horee
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch375)/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: Mentari TV" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/db1dfff49cbaffb6a323ce329f64a2f8.png" group-title="Anak",Mentari TV
+#EXTINF:-1 tvg-id="mentaritv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/mentari_tv.png" group-title="Anak",Mentari TV
 http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/298546
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: ZooMoo" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/ffe9e8c7ffa0c48eccb971c397c8e0de.png" group-title="Anak",ZooMoo
+#EXTINF:-1 tvg-id="zoomoo" tvg-name="ID: ZooMoo" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/ffe9e8c7ffa0c48eccb971c397c8e0de.png" group-title="Anak",ZooMoo
 http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/264751
 
 #EXTINF:-1 group-title="Anak",Biznet Kids
@@ -561,7 +605,7 @@ http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/298501
 ##############################
 
 
-#EXTINF:-1 tvg-logo="" group-title="TV Olahraga",TVRI SPORT
+#EXTINF:-1 tvg-id="tvrisports.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/tvri_sport.png" group-title="TV Olahraga",TVRI SPORT
 http://210.210.155.37/qwr9ew/s/s107/index.m3u8
 
 #EXTINF:-1 group-title="TV Olahraga",Abu Dhabi Sports 1
@@ -597,4 +641,3 @@ https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/redbull
 
 ##############################
 ##############################
-
