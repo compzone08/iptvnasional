@@ -4,13 +4,13 @@
 ########## EPG Source ########
 ##############################
 
-x-tvg-url="https://12537-stream-ip-tv.xyz/local/epg.xml" refresh=3600 tvg-shift=0
+x-tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" refresh=3600 tvg-shift=0
 
 ##################################################
 #########Playlist TV Ini Gratis###################
 #########Hanya Berisi Siaran FTA##################
 #####Dilarang Untuk Diperjualbelikan/Komersial####
-###############Compzone08_2023####################
+###############Compzone08_2024####################
 ##################################################
 
 ##############################
@@ -23,13 +23,10 @@ x-tvg-url="https://12537-stream-ip-tv.xyz/local/epg.xml" refresh=3600 tvg-shift=
 ##############################
 
 #EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne
-https://op-krgroup1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=tvOne
-
-#EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://i.imgur.com/nmoL4J4.png" group-title="TV Nasional",tvOne Alt
-https://op-krgroup1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&chname=tvOne
+http://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
 
 #EXTINF:-1 tvg-id="ochannel.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/moji.png" group-title="TV Nasional",MOJI
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch26)/index.m3u8
+http://premiumiptvmk.com:8080/shaboy85/B3hLKkFsT7QXRE4PVcUCrx/298550
 
 #EXTINF:-1 tvg-id="cnnindonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/1200px-CNN_Indonesia.svg.png" group-title="TV Nasional",CNN Indonesia
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
@@ -40,53 +37,55 @@ http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTINF:-1 tvg-id="beritasatu.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/btv_beritasatu.png" group-title="TV Nasional",Berita Satu (BTV) HD
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" tvg-id="metrotv.id" group-title="TV Nasional",Metro TV SD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" tvg-id="metrotv.id" group-title="TV Nasional",Metro TV HD
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/metrotv.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GB6gAEG.png" tvg-id="metrotv.id" group-title="TV Nasional",Metro TV ALT
-http://12537-stream-ip-tv.xyz/play/channels/efemeks/metroteve/index.m3u8
 
 #EXTINF:-1 tvg-id="kompastv.id" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg" group-title="TV Nasional",Kompas TV
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/kompastv.m3u8
 
-#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.transtv.co.id/livetv/anytv/KOMPAS_TV_live_streaming_tv.jpg",Kompas TV SD 2
-http://12537-stream-ip-tv.xyz/play/channels/efemeks/kompasteve/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD
-http://12537-stream-ip-tv.xyz/play/channels/efemeks/indosiar/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD 2
-https://raw.githubusercontent.com/mimipipi22/lalajo/main/indosiar.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/A56UnoD.png" tvg-id="indosiar.id" group-title="TV Nasional",Indosiar SD 3
-http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" tvg-id="sctv.id" group-title="TV Nasional",SCTV SD
-http://12537-stream-ip-tv.xyz/play/channels/efemeks/esceteve/index.m3u8
+#https://raw.githubusercontent.com/mimipipi22/lalajo/main/sctv.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WFT5Xiq.png" tvg-id="sctv.id" group-title="TV Nasional",SCTV SD 2
-https://raw.githubusercontent.com/mimipipi22/lalajo/main/sctv.m3u8
+#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png"  group-title="TV Nasional",NET TV HD
+http://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.sapibagus.com/wp-content/uploads/2015/11/logo-Net-tv.png"  group-title="TV Nasional",NET TV SD
-https://op-group1-swiftservehd-1.dens.tv/h/h06/01.m3u8
-
-#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/antv.png" tvg-id="antv.id" group-title="TV Nasional",ANTV HD
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch390)/index.m3u8
-
-#EXTINF:1- tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/antv.png" tvg-id="antv.id" group-title="TV Nasional",ANTV SD
-http://210.210.155.35/qwr9ew/s/s07/index1.m3u8
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ANTV.png" group-title="TV Nasional", ANTV HD
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch390%29/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nPm5ytF.png" tvg-id="mnctv.id" group-title="TV Nasional",MNC TV HD
-http://12537-stream-ip-tv.xyz/play/channels/erceteplus/mnctv/index.m3u8
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/mnctv.m3u8
 
-#EXTINF:-1 tvg-id="rcti.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rcti.png" group-title="TV Nasional",RCTI HD
-http://12537-stream-ip-tv.xyz/play/channels/erceteplus/rcti/index.m3u8
+#EXTINF:-1 tvg-id="rcti.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_80.png" group-title="TV Nasional",RCTI HD
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/rcti.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZjdiMDljNTItMmYzZC0zNDcyLTllYmItY2QxNDdiYzlhZWY0
+#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_80.png",RCTI ALT
+https://alpukat-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NvE0OeL.png" tvg-id="gtv.id" group-title="TV Nasional",GTV HD
 http://nyanv-live-cdn.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2.m3u8
 
-#EXTINF:-1 tvg-id="inews.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/inews.png" group-title="TV Nasional",iNews
-http://12537-stream-ip-tv.xyz/play/channels/erceteplus/inews/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZjdiMDljNTItMmYzZC0zNDcyLTllYmItY2QxNDdiYzlhZWY0
+#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_81.png",GTV HD Alt
+https://alpukat-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
+
+#EXTINF:-1 tvg-id="inews.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_81.png" group-title="TV Nasional",iNews
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/inews.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZjdiMDljNTItMmYzZC0zNDcyLTllYmItY2QxNDdiYzlhZWY0
+#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_83.png",iNews ALT
+https://alpukat-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZjdiMDljNTItMmYzZC0zNDcyLTllYmItY2QxNDdiYzlhZWY0
+#EXTINF:-1 group-title="TV Nasional" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_84.png",MNC News
+https://alpukat-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cpSiuF1.png" tvg-id="trans7.id" group-title="TV Nasional",Trans 7 HD
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
@@ -95,30 +94,37 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wIh3qZo.png" tvg-id="tvrinasional.id" group-title="TV Nasional",TVRI Nasional Jakarta
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIdki)/index.m3u8
+http://op-group1-swiftservehd-1.dens.tv/h/h237/01.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0ibvxPb.png" tvg-id="jakartaglobenews.id" group-title="TV Nasional",Jakarta Globe News
-http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsenglish/playlist.m3u8
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch2%29/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bH4sFzG.png" tvg-id="beritasatuworld.id" group-title="TV Nasional",Berita Satu World
 https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GCXgzNr.png" group-title="TV Nasional",TV E-Edukasi!
-http://45.126.83.51/uq2663/h/h10/index.m3u8
+#http://45.126.83.51/uq2663/h/h10/index.m3u8
 
-#EXTINF:-1 group-title="TV Nasional",IDX CHANNEL
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch389)/index.m3u8
+#EXTINF:-1 tvg-id="IDXChannel.id" tvg-name="IDX CHANNEL" tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/IDX.png" group-title="TV Nasional", IDX CHANNEL
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch389%29/index.m3u8
 
-#EXTINF:-1 group-title="TV Nasional" tvg-id="jaktv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/jaktv.png",JakTV
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch392)/index.m3u8
+#EXTINF:-1 tvg-id="JakTV.id" tvg-name="JAK TV" tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/JAKTV.png" group-title="TV Nasional", JAK TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch392%29/index.m3u8
 
-#EXTINF:-1 group-title="TV Nasional" tvg-id="rajawalitv.id" tvg-logo="http://12537-stream-ip-tv.xyz/assets/tv-logo/rtv.png",RTV
-http://12537-stream-ip-tv.xyz/play/channels/mekstrim/hls/41869351-4a9c-4e57-b54b-8cf5dfc919e1/master.m3u8
+#EXTINF:-1 group-title="TV Nasional" tvg-id="rajawalitv.id" tvg-logo="",RTV
+https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(41869351-4a9c-4e57-b54b-8cf5dfc919e1)/index.m3u8
 
+#EXTINF:-1 group-title="TV Nasional" tvg-id="rajawalitv.id" tvg-logo="",RTV ALT
+http://premiumiptvmk.com:8080/shaboy85/B3hLKkFsT7QXRE4PVcUCrx/196457
 
+#EXTINF:-1 group-title="TV Nasional",IDTV
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/idtv.m3u8
 
+#EXTINF:-1 tvg-id="RRINet.id" tvg-logo="https://i.imgur.com/4mWKUf4.png" group-title="TV Nasional",RRI Net HD
+https://rrinet.rri.co.id/hls/live.m3u8
 
-
+#EXTINF:-1 tvg-id="TVKesehatan.id" tvg-logo="https://i.imgur.com/IGIX3o8.jpg" group-title="TV Nasional",TV Kesehatan HD
+https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8
 
 
 ##############################
