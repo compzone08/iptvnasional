@@ -1,32 +1,4 @@
 #EXTM3U
-##############################
-########## EPG Source ########
-##############################
-
-x-tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" refresh=3600 tvg-shift=0
-
-##################################################
-#########Playlist TV Ini Gratis###################
-#########Hanya Berisi Siaran FTA##################
-##########Tidak Untuk Diperjualbelikan############
-###############Compzone08_2024####################
-##################################################
-
-##############################
-##### Playlist TV NASIONAL ###
-##############################
-
-##############################
-########## TV NASIONAL #######
-##############################
-
-##########################
-##########################
-
-#EXTINF:-1 group-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/715px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png" group-title="TV NASIONAL"
-
-##########################
-##########################
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-id="" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_115.png", ANTV FHD(Indi)
 https://streaming.indihometv.com/atm/DASH/ANTV/manifest.mpd
@@ -286,21 +258,6 @@ https://dsgtq5sngxkde.cloudfront.net/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channe
 #EXTINF:-1 tvg-id="TVKesehatan.id" tvg-logo="https://i.imgur.com/IGIX3o8.jpg" group-title="TV NASIONAL",TV Kesehatan HD
 https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8
 
-##########################
-##########################
-##########################
-##########################
-
-
-##############################
-######### TV DAERAH ##########
-##############################
-
-#EXTINF:-1 group-logo="https://3.bp.blogspot.com/-PdEfjhF6vuU/Tfk10iCFK8I/AAAAAAAAAB0/2a3-Df0_Hdc/s1600/tarian-moyang.jpg" group-title="TV DAERAH"
-
-##############################
-##############################
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/Elshinta%20TV.jpg" tvg-id="elshintatv.id" group-title="TV DAERAH",Elshinta TV
 https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
 
@@ -383,7 +340,6 @@ https://v6.siar.us/pujatv/live/chunks.m3u8
 https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv_high.m3u8
 
 #EXTINF:-1 tvg-id="riautv.id" tvg-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/Riau%20TV.jpg" group-title="TV DAERAH",Riau TV
-##########
 
 #EXTINF:-1 tvg-id="tatv.id" tvg-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/TATV%20Solo.jpg" group-title="TV DAERAH",TATV Solo
 https://nin.siar.us/tatv/live.sdp/chunks.m3u8
@@ -515,20 +471,6 @@ https://5bf7b725107e5.streamlock.net/jurnaltv/jurnaltv/playlist.m3u8
 https://5bf7b725107e5.streamlock.net/saliratv/saliratv/playlist.m3u8
 
 
-
-
-##########################
-##########################
-
-#EXTINF:-1 group-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/MAKKAH%20Live.jpg" group-title="TV RELIGI"
-
-##########################
-##########################
-
-##############################
-######### TV RELIGI ##########
-##############################
-
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/944/49944-SNAPSHOT-m.png" group-title="TV RELIGI",MAKKAH Live
 https://cdn14jtedge.indihometv.com/joss/130/alquran/index.m3u8
 
@@ -628,19 +570,6 @@ https://streaming.yufid.com/hls/artvisi.m3u8
 https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
 
 
-##########################
-##########################
-
-#EXTINF:-1 group-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/TVRI.jpg" group-title="TVRI"
-
-##########################
-##########################
-
-
-##############################
-######### TVRI ###############
-##############################
-
 #EXTINF:-1 group-title="TVRI" tvg-logo="https://raw.githubusercontent.com/compzone08/IPTV/main/IMG%20TV%20Logo/TVRI.jpg",TVRI NASIONAL
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 
@@ -736,10 +665,3 @@ https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
 
 #EXTINF:-1 group-title="TVRI" tvg-logo="https://klik.tvri.go.id/po-content/uploads/tvripapua.png" group-title="TVRI",TVRI PAPUA BARAT
 https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
-
-##############################
-##############################
-##############################
-##############################
-
-#EXTM3U billed-msg="Playlist TV Nasional, Gratis."
