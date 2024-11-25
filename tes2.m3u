@@ -45,3 +45,45 @@ http://172.105.123.238:18002/play/a00r
 http://172.105.123.238:18002/play/a02b
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@PREMIUM✓SPORTS", DD SPORTS HD
 http://172.105.123.238:18002/play/a03d
+
+#EXTINF:-1 tvg-id="beinsports1en.qa" tvg-name="beIN SPORTS EN 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/bein-sports/bein-sports-1-english-mea.png" group-title="AR | BeIN SPORTS",beIN SPORTS EN 1 FHD
+http://millcitygold.xyz:8080/Freda1/Freda1/327626
+
+#EXTINF:-1 tvg-id="beinsports2en.qa" tvg-name="beIN SPORTS EN 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/bein-sports/bein-sports-2-english-mea.png" group-title="AR | BeIN SPORTS",beIN SPORTS EN 2 FHD
+http://millcitygold.xyz:8080/Freda1/Freda1/327625
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/dxs/images/1/19/Champions_TV_Logo_2021.png" group-title="SHAREEXT@INDONESIA ➾  SPORTS",Champions 1.mpd(ott.nav)
+#EXTVLCOPT:http-user-agent=VidioPlayer/4.3.0-WITH_ADS
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://luck.openwindows038.workers.dev/play?id=17938&type=drm
+https://luck.openwindows038.workers.dev/play.mpd?id=17938&type=dash
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/dxs/images/1/19/Champions_TV_Logo_2021.png" group-title="SHAREEXT@INDONESIA ➾  SPORTS",Champions 2.mpd(ott.nav)
+#EXTVLCOPT:http-user-agent=VidioPlayer/4.3.0-WITH_ADS
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://luck.openwindows038.workers.dev/play?id=6686&type=drm
+https://luck.openwindows038.workers.dev/play.mpd?id=6686&type=dash
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/dxs/images/1/19/Champions_TV_Logo_2021.png" group-title="SHAREEXT@INDONESIA ➾  SPORTS",Champions 3.mpd(ott.nav)
+#EXTVLCOPT:http-user-agent=VidioPlayer/4.3.0-WITH_ADS
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://luck.openwindows038.workers.dev/play?id=6786&type=drm
+https://luck.openwindows038.workers.dev/play.mpd?id=6786&type=dash
+
+#EXTINF:-1 tvg-logo="http://kingtv.dynu.com/tvlogo/Bein_sports.png" group-title="SHAREEXT@MALAY||SINGAPORE ➾ Sports",beIN SPORTS_
+http://31.42.187.37:25461/watchpad13158/1234/18
+#EXTINF:-1 tvg-logo="http://kingtv.dynu.com/tvlogo/BeinSports2.png" group-title="SHAREEXT@MALAY||SINGAPORE ➾ Sports",BEIN SPORTS 2_
+http://31.42.187.37:25461/watchpad13158/1234/4096
+#EXTINF:-1 tvg-logo="http://kingtv.dynu.com/tvlogo/Bein_sports.png" group-title="SHAREEXT@MALAY||SINGAPORE ➾ Sports",BEIN SPORTS 3_
+http://31.42.187.37:25461/watchpad13158/1234/8956
+#EXTINF:-1 tvg-logo="http://kingtv.dynu.com/tvlogo/Astro_Arena.png" group-title="SHAREEXT@MALAY||SINGAPORE ➾ Sports",Arena_
+http://31.42.187.37:25461/watchpad13158/1234/286
+#EXTINF:-1 tvg-logo="http://kingtv.dynu.com/tvlogo/AstroArena2.png" group-title="SHAREEXT@MALAY||SINGAPORE ➾ Sports",Arena_ 2
+http://31.42.187.37:25461/watchpad13158/1234/336
+
+#EXTINF:-1 tvg-id="251.astro" tvg-name="MY BOO HD" tvg-logo="http://kingtv.dynu.com/tvlogo/BOO.png" group-title="SHAREEXT@Television/MY/ASTRO",BOO HD_
+http://31.42.187.37:25461/watchpad13158/1234/1572
+
