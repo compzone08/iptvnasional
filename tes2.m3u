@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U url-tvg="https://www.bevy.be/bevyfiles/indonesia.xml, https://www.bevy.be/bevyfiles/indonesiapremium1.xml, https://www.bevy.be/bevyfiles/indonesiapremium2.xml, https://www.bevy.be/bevyfiles/indonesiapremium3.xml"
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_ID.xml"
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=531c6d50e3e9f9ba66446f624f492289:d769d9ae238bdd424f8bcdcdc9a3801f
@@ -12,12 +12,6 @@ https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sportstars_2.png/640px-Sportstars_2.png" group-title="VISION PLUS", SPORTSTARS 2 HD
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd|user-agent=mozilla/89 ExoPlayerLib
-
-#EXTINF:-1 tvg-id="beinsports1en.qa" tvg-name="beIN SPORTS EN 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/bein-sports/bein-sports-1-english-mea.png" group-title="AR | BeIN SPORTS",beIN SPORTS EN 1 FHD
-http://millcitygold.xyz:8080/Freda1/Freda1/327626
-
-#EXTINF:-1 tvg-id="beinsports2en.qa" tvg-name="beIN SPORTS EN 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/bein-sports/bein-sports-2-english-mea.png" group-title="AR | BeIN SPORTS",beIN SPORTS EN 2 FHD
-http://millcitygold.xyz:8080/Freda1/Freda1/327625
 
 
 #EXTINF:-1  tvg-logo="https://i.ibb.co.com/N3HbgWQ/IMG-20220828-165715.jpg" group-title="SHAREEXT@INDIHOME",HBO 
