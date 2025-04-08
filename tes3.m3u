@@ -3,19 +3,21 @@
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/8X5kq4f/boo.png" group-title="SALURAN TV FILM",ASTROO BOO
 http://extraott.com:900/live/3162523972/3791698850/29626.m3u8
 
-#EXTINF:-1 group-logo="" group-title="SPORTS" tvg-id="814.astro" tvg-logo="https://perfecttv.net/logo/footballA.png" group-logo="",809 Astro Football
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=79f4028730acca9ab8b00f26158ddb10:91febe843c08c7cc523efd827292e40e
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_ott.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="809 Astro Grandstand" tvg-logo="https://perfecttv.net/logo/grandstandB.png" group-title="SPORTS",809 Astro Grandstand
-#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 tvg-logo="https://www.transtv.co.id/livetv/anytv/ANTV_live_streaming_tv.jpg" group-title="TRANSVISION",ANTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=505aefcda9084f83bc5c6cc53f0ef9c6:f89898184ed921e225cd89f4d2ea1035
-https://get.perfecttv.net/linear.mpd?channel=grandstandsd&username=perfecttv&password=perfecttv|authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDE4NjEyMTYsImlzcyI6IlZSIiwiZXhwIjoxNzQxOTA1MDAwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiNTgwYTliMDAtOWEzZC00ZWFmLTg2YjctZDA5ZTk4MTNmNGZmIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9MTA4MCl8fCh0eXBlPT1cImF1ZGlvXCImJmZvdXJDQyE9XCJhYy0zXCIpfHwodHlwZSE9XCJ2aWRlb1wiJiZ0eXBlIT1cImF1ZGlvXCIpIn0.WIJmlm5GMEVKaGP04EcVeV6pWB-QQyPP2QhfCFcWs-c
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu-cindo.cenc16995.workers.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e9c5992395/manifest.mpd
 
+#EXTINF:-1 tvg-logo="https://www.transtv.co.id/livetv/anytv/TVONE_live_streaming_tv.jpg" group-title="TRANSVISION",TV One
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu-cindo.cenc16995.workers.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6df9359238f/manifest.mpd
 
 
 
